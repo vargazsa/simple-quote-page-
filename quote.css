@@ -1,0 +1,47 @@
+body {
+  background: url(assets/Neretva%20v%C3%B6lgye%20%20Nyaral%C3%A1s%202015%20030.JPG) no-repeat center center fixed;
+  background-size: cover;
+  font-size: 2rem;
+  height: 100vh;
+  width: 100vw;
+  display: table;
+  padding: 10%;
+  letter-spacing: 0.1rem;
+  line-height: 3rem;  
+}
+* {
+  display: block;
+}
+
+title {
+  display:none;
+}
+
+blockquote {
+  background-color: rgba(0, 0, 0, 0.5);
+  vertical-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: #5ed853;
+  max-width: 80vw;
+}
+
+p{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  
+}
+
+p::before {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1.5px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+@media (min-width: 768px) {
+  blockquote {
+  padding: 0;  
+  } 
+}
